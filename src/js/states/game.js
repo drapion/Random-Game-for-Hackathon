@@ -12,6 +12,8 @@ Game.prototype = {
     var x = (this.game.width / 2) - 100;
     var y = (this.game.height / 2) - 50;
 
+    game.stage.backgroundColor = "#FF0000";
+
     this.testentity = new Player(this.game, x, y);
     this.testentity.anchor.setTo(0.5, 0.5);
 

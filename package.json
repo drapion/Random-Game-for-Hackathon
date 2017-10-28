@@ -15,5 +15,9 @@
     "grunt-contrib-cssmin": "^0.14.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-open": "^0.2.3"
+
+  },
+  "scripts": {
+    "dev": "grunt --force"
   }
 }
